@@ -125,3 +125,8 @@ body {
     }
 
 }
+
+
+.brand-box > i {
+        display: none;
+}
