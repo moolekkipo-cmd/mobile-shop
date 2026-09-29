@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* HERO */
+
+.hero {
+    background: linear-gradient(
+        135deg,
+        #eef4ff,
+        #ffffff
+    );
+}
+
+/* PHONE */
+
+.phone {
+    width: 250px;
+    height: 400px;
+
+    margin: auto;
+
+    border-radius: 35px;
+
+    background: #111;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow:
+        0 20px 40px rgba(0,0,0,0.2);
+}
+
+.phone i {
+    font-size: 160px;
+    color: white;
+}
+
+/* BRAND */
+
+.brand-box {
+    text-align: center;
+
+    padding: 30px 10px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 15px;
+
+    background: white;
+
+    transition: 0.3s;
+}
+
+.brand-box:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,0.1);
+}
+
+.brand-box i {
+    font-size: 40px;
+
+    color: #0d6efd;
+}
+
+/* PRODUCT */
+
+.product-card {
+    border: none;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,0.12);
+}
+
+.product-card img {
+    height: 230px;
+
+    object-fit: contain;
+
+    padding: 15px;
+}
+
+/* PROMOTION */
+
+.promotion {
+    padding: 50px;
+
+    border-radius: 20px;
+
+    background: #fff3cd;
+}
+
+/* MOBILE */
+
+@media (max-width: 767px) {
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .phone {
+        width: 180px;
+        height: 290px;
+    }
+
+    .phone i {
+        font-size: 110px;
+    }
+
+}
