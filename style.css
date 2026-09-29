@@ -130,3 +130,13 @@ body {
 .brand-box > i {
         display: none;
 }
+
+
+    .hero .row > div:last-child {
+            display: none;
+    }
+
+.hero .row > div:first-child {
+        flex: 0 0 100%;
+        max-width: 100%;
+}
